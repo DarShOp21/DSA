@@ -28,7 +28,7 @@ bool threeSum2(vector<int>arr , int target){
         for(int j = i+1 ; j < size - 1 ; j++){
             int x = target - (arr[i] + arr[j]);
             int start = j+1 , end = size - 1 , mid;
-            while (start < end){
+            while (start <= end){
                 mid = start + (end - start)/2;
                 if(arr[mid] == x){
                     cout << arr[i] << " " << arr[j] << " " << arr[mid] << endl;

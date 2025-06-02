@@ -6,3 +6,4 @@
 # Ignore build folders (optional if you use them)
 build/
 bin/
+.vscode
