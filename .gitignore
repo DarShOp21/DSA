@@ -1,0 +1,8 @@
+# Ignore compiled files globally
+*.exe
+*.out
+*.o
+
+# Ignore build folders (optional if you use them)
+build/
+bin/
